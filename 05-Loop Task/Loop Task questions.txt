@@ -1,0 +1,26 @@
+
+
+Python Tasks
+
+
+
+1. Print numbers from 0 to 10 using while
+
+2. Print numbers from 0 to 1o using for
+
+3. Stop the loop if the number = 5
+
+4. Skip the 5 iteration from print
+
+5. Print multiplication table from 1 to 5
+
+6. How to get numbers from 10 to 20 using range
+
+7. How to get numbers from 10 to 100 with 3 at each
+step using range
+
+8. Get a list of even numbers from 1 to 100 using for
+
+9. Get a list of even numbers from 1 to 100 using while
+
+10. Get a list of even numbers from 1 to 100 using range
