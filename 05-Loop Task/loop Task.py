@@ -75,3 +75,7 @@ while x in range(0,100):
 #10. Get a list of even numbers from 1 to 100 using range
 
 
+'''
+list(range(0,100,2))
+'''
+
