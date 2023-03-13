@@ -1,4 +1,5 @@
 #1. What do we mean with the term :
+
 #   1. Base class
 
 #   2. Parent class
@@ -15,9 +16,13 @@
 
 
 #3. Can we inherit from more than one class in python
+yes
 
 
 #4. If yes how multiple inheritance works
+
+
+Priority is given to the main class then to i
 
 
 
