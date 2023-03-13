@@ -128,3 +128,6 @@ c1.power(0,1)
 
 
 #10. Explain in few words what happened after inheriting
+after inheriting if we need a function in Calc and we dont have it in SciCalc we can simply use inherting Calc in Scicalc
+
+
