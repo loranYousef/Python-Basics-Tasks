@@ -4,6 +4,10 @@
 
 
 #1. Create a new class names SciCalc with 3 methods , sum , mull , power all of them takes 2 argument x, y
+class Scicalc:
+    def sum(self,x,y):
+    def sum(self,x,y):
+    def sum(self,x,y):
 
 #2. Sum return the sum of x and y
 
