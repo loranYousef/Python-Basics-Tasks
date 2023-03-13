@@ -23,16 +23,22 @@ EX:
  class Calc:
         def __init__(self):
         print('welcome')
-        def mysum(x,y):
+        
+        def mysum(self,x,y):
             result= x+y
+            print(result)
+            
+        def mull(self,x,y):
+            result= x*y
             print(result)
 c1 = Calc
 c1.mysum(5,6)
+c1.mull(5,6)
 #5. The sum method return the sum of 2 arguments x and y
  class Calc:
         def __init__(self):
             print('welcome')
-        def mysum(x,y):
+        def mysum(self,x,y):
             result= x+y
             return result
 c1 = Calc
@@ -88,7 +94,8 @@ abstraction
 
 we should use thise 4 methode when we writing code
 #12. Why we use OOP in our code
-it make code modular and faster and all programing language use oop 
+it make code modular and faster and all programing language use oop :
+    Overall, OOP helps developers write better-organized, more maintainable, and more extensible code that is easier to understand and collaborate on, making software development more efficient and effective.
 
 
 #Python OOP Tasks Part 1
