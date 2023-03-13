@@ -60,6 +60,9 @@ class Scicalc:
         return x*y
     def power(self,x,y):
         return x,y
+
+class Calc
+
 c1 = Scicalc()
 c1.sum(5,6)
 c1.mull(5,6)
@@ -67,11 +70,45 @@ c1.power(0,1)
 
 
 #6. Can we inherit from the class we created in the firsttask Calc
+yeah could we
 
-#7. Inherit from the Calc class , now remove theunneeded code the the SciCalc after inheriting
+
+#7. Inherit from the Calc class , now remove the unneeded code the the SciCalc after inheriting
+class Calc:
+        def sum(self,x,y):
+        return x+y
+    def mull(self,x,y):
+        return x*y
+    def power(self,x,y):
+        return x,y
+
+
+
+class Scicalc(Calc):
+
+
+c1 = Scicalc()
+c1.sum(5,6)
+c1.mull(5,6)
+c1.power(0,1)
 
 #8. call the 3 methods again from the SciCalc object
+class Calc:
+    def sum(self, x, y):
+        return x + y
+    def mull(self, x, y):
+        return x * y
+   
+
+class Scicalc(Calc):
+    def power(self, x, y):
+        return x ** y
+c1 = Scicalc()
+c1.sum(5,6)
+c1.mull(5,6)
+c1.power(0,1)
 
 #9. Now you should see the same result as before
+
 
 #10. Explain in few words what happened after inheriting
