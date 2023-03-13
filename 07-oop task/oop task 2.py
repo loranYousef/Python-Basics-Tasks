@@ -6,10 +6,19 @@
 #1. Create a new class names SciCalc with 3 methods , sum , mull , power all of them takes 2 argument x, y
 class Scicalc:
     def sum(self,x,y):
-    def sum(self,x,y):
-    def sum(self,x,y):
+        
+    def mull(self,x,y):
+    def power(self,x,y):
+c1 = Scicalc()
 
 #2. Sum return the sum of x and y
+class Scicalc:
+    def sum(self,x,y):
+        return x+y
+    def mull(self,x,y):
+    def power(self,x,y):
+c1 = Scicalc()
+
 
 #3. Mull return the multiplication of x and y
 
