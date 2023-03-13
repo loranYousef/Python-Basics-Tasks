@@ -110,5 +110,21 @@ c1.power(0,1)
 
 #9. Now you should see the same result as before
 
+class Calc:
+    def sum(self, x, y):
+        return x + y
+    def mull(self, x, y):
+        return x * y
+   
+
+class Scicalc(Calc):
+    def power(self, x, y):
+        return x ** y
+c1 = Scicalc()
+c1.sum(5,6)
+c1.mull(5,6)
+c1.power(0,1)
+
+
 
 #10. Explain in few words what happened after inheriting
